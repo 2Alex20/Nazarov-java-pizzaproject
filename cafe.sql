@@ -32,6 +32,8 @@ CREATE TABLE `cafe` (
 --
 
 LOCK TABLES `cafe` WRITE;
+INSERT INTO `cafe` VALUES (1,'Cafe1','Odessa','Koroleva 123','a@i.ua','+380 98 123 45 56','2023-10-10 7:17:17', '2023-10-10 19:22:33');
+INSERT INTO `cafe` VALUES (2,'Cafe2','Kiyv','Kreshatik 234','a2@i.ua','+380 66 55 77 123','2023-12-12 8:00:17', '2023-12-12 17:30:00');
 UNLOCK TABLES;
 
 --
@@ -55,6 +57,11 @@ CREATE TABLE `pizza` (
 --
 
 LOCK TABLES `pizza` WRITE;
+INSERT INTO `pizza` VALUES (1,'Margarita_XL','XL','cheese plain','12','1');
+INSERT INTO `pizza` VALUES (2,'Margarita_L','L','cheese plain','10','1');
+INSERT INTO `pizza` VALUES (3,'Neapol_L','L','cheese, tomat','15','1');
+INSERT INTO `pizza` VALUES (4,'Spring_L','L','cheese, tomat, chery','13','2');
+INSERT INTO `pizza` VALUES (5,'Tees_XL','XL','cheese, mocarella','18','2');
 UNLOCK TABLES;
 
 
