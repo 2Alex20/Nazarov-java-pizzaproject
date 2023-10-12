@@ -1,0 +1,5 @@
+Indexes and fields:
+
+cafe id, address {"id":"123","name":"Pizza Point","city":"Berlin","address":"Haupstrase 1","email":"pizzapoint@gmail.com","phone":"0034 231 234","open_at":"09:00:00","close_at":"21:00:00"}
+
+pizza cafe_id , pizza name {"id":"1234","name":"Gawaii", "size":"XL", "key_ingredients":"pineapple", "price":25, "cafe_id":4}
