@@ -1,1 +1,3 @@
-DECIMAL(5,2)
+--create database cafe;
+DROP TABLE IF EXISTS `cafe`; CREATE TABLE `cafe` (`id` int(11) NOT NULL AUTO_INCREMENT,`name` varchar(255) DEFAULT NULL,`city` varchar(255) DEFAULT NULL,`address` varchar(255) DEFAULT NULL,`email` varchar(255) DEFAULT NULL,`phone` varchar(255) DEFAULT NULL,`open_at` datetime(6) DEFAULT NULL,`close_at` datetime(6) DEFAULT NULL, PRIMARY KEY (`id`), KEY `address` (`address`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+DROP TABLE IF EXISTS `pizza`; CREATE TABLE `pizza` (`id` int(11) NOT NULL AUTO_INCREMENT,`name` varchar(255) DEFAULT NULL,`size` varchar(16) DEFAULT NULL,`key_ingredients` varchar(255) DEFAULT NULL,`price` DECIMAL(10,2) DEFAULT 0,`cafe_id` int(11), PRIMARY KEY (`id`), KEY `name` (`name`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8; 
