@@ -5,10 +5,7 @@
 - [x] Update README.md
 
 
-13/10 добавлено описани REST API 
-[wiki](https://github.com/2Alex20/Nazarov-java-pizzaproject/wiki/REST-API-details) or [wiki relative link](../../wiki/REST-API-details)
-
-This site was built using [markdown](https://pages.github.com/).
+13/10 добавлено описани [REST API wiki](../../wiki/REST-API-details)
 
 ---
 
