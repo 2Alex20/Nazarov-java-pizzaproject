@@ -1,5 +1,9 @@
-Generated 
-[spring](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.16&packaging=jar&jvmVersion=17&groupId=com.example&artifactId=spring4nazarov&name=spring4nazarov&description=Cafe%20backend&packageName=com.example.spring4nazarov&dependencies=web)
+Started WEB service with ./mvnw spring-boot:run
+Checked with "wget -qO- http://localhost:8080/hello?name=Test123" which return: ```Hello Test123!```
+
+------
+
+Generated [spring](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.16&packaging=jar&jvmVersion=17&groupId=com.example&artifactId=spring4nazarov&name=spring4nazarov&description=Cafe%20backend&packageName=com.example.spring4nazarov&dependencies=web)
 
 Указал нужные версии из требования к заданию, но ошибся и вместо 11й Явы, указал 17ю. Получил ошибки:
 ```
