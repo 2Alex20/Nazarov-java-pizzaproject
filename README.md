@@ -13,15 +13,6 @@ This site was built using [markdown](https://pages.github.com/).
 ---
 
 Database scheeme:
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-v2
 
 ```mermaid
 graph TD;
@@ -34,7 +25,7 @@ graph TD;
     piza-->size;
     pizza-->cafe;
     pizza-->key_ingredients;
-    pizza-->price
+    pizza-->price;
 ```
 
 ---
