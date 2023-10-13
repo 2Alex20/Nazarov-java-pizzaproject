@@ -15,3 +15,11 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
+
+
+docker run -it --network host --name nazarov-maven -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.8-jdk-11 bash
+
+root@hp:/usr/src/mymaven# ls ; apt-get install net-tools telnet netcat wget curl
+HELP.md  mvnw  mvnw.cmd  pom.xml  src  target
+
+root@hp:/usr/src/mymaven# mvn clean install
