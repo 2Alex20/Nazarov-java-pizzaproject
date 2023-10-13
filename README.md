@@ -1,3 +1,6 @@
+Generated 
+[spring](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.16&packaging=jar&jvmVersion=17&groupId=com.example&artifactId=spring4nazarov&name=spring4nazarov&description=Cafe%20backend&packageName=com.example.spring4nazarov&dependencies=web)
+
 14/10 добавлены задачи
 
 - [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/11
