@@ -1,9 +1,30 @@
 Generated 
 [spring](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.7.16&packaging=jar&jvmVersion=17&groupId=com.example&artifactId=spring4nazarov&name=spring4nazarov&description=Cafe%20backend&packageName=com.example.spring4nazarov&dependencies=web)
 
+Указал нужные версии из требования к заданию, но ошибся и вместо 11й Явы, указал 17ю. Получил ошибки:
+```
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.474 s
+[INFO] Finished at: 2023-10-13T18:57:28Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.10.1:compile (default-compile) on project spring4nazarov: Fatal error compiling: error: invalid target release: 17 -> [Help 1]
+```
+которые исправил заменив значение java.version в pom.xml
+После этого билд успешен:
+```
+docker run -it --name nazarov-maven -v "$(pwd)":/usr/src/mymaven -w /usr/src/mymaven maven:3.8-jdk-11 mvn clean install
+...
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  46.108 s
+[INFO] Finished at: 2023-10-13T19:02:08Z
+[INFO] ------------------------------------------------------------------------
+```
+
 14/10 добавлены задачи
 
-- [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/11
+- [x] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/11
 - [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/4
 - [x] Update README.md
 
