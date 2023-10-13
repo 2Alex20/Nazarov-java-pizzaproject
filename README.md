@@ -1,7 +1,33 @@
+14/10 добавлены задачи
+
+- [ ] #11
+- [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/4
+- [ ] Update README.md
+
+
 13/10 добавлено описани REST API 
 [wiki](https://github.com/2Alex20/Nazarov-java-pizzaproject/wiki/REST-API-details) or [wiki relative link](../../wiki/REST-API-details)
 
 This site was built using [markdown](https://pages.github.com/).
+
+---
+
+Database scheeme:
+```mermaid
+graph TD;
+    cafe-->id;
+    cafe-->name, city;
+    cafe-->address;
+    cafe-->etc.;
+    pizza-->id;
+    pizza-->name;
+    piza-->size;
+    pizza-->cafe;
+    pizza-->key_ingredients;
+    pizza-->price
+```
+
+---
 
 Разработать приложение, построенное по принципу чистой архитектуры.
 
