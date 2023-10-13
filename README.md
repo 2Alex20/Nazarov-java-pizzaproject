@@ -16,24 +16,16 @@ Database scheeme:
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-```mermaid
-graph TD;
-    cafe-->id;
-    cafe-->name;
-    cafe-->address;
-    cafe-->etc;
+    cafe-->id_cafe;
+    cafe-->name_cafe;
+    cafe-->address_cafe;
     pizza-->id;
     pizza-->name;
-    piza-->size;
+    pizza-->size;
     pizza-->cafe;
     pizza-->key_ingredients;
     pizza-->price;
+    key_ingredients-->blob;
 ```
 
 ---
