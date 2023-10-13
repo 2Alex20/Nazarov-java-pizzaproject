@@ -15,6 +15,16 @@ This site was built using [markdown](https://pages.github.com/).
 Database scheeme:
 ```mermaid
 graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+v2
+
+```mermaid
+graph TD;
     cafe-->id;
     cafe-->name, city;
     cafe-->address;
