@@ -6,7 +6,7 @@ This site was built using [markdown](https://pages.github.com/).
 
 [wiki](https://github.com/2Alex20/Nazarov-java-pizzaproject/wiki/REST-API-details)
 
-[wiki2](wiki/REST-API-details)
+[wiki2](../../wiki/REST-API-details)
 
 
 Разработать приложение, построенное по принципу чистой архитектуры.
