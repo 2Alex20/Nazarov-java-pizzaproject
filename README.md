@@ -1,6 +1,6 @@
 14/10 добавлены задачи
 
-- [ ] #11
+- [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/11
 - [ ] https://github.com/2Alex20/Nazarov-java-pizzaproject/issues/4
 - [ ] Update README.md
 
