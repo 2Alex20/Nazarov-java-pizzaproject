@@ -1,5 +1,6 @@
 # This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+# Passed at https://github.com/2Alex20/Nazarov-java-pizzaproject/actions/runs/6513402834/job/17692949321
 
 name: Java CI with Maven
 
@@ -18,5 +19,13 @@ jobs:
         uses: actions/setup-java@v1
         with:
           java-version: 1.11
+          cache: maven
+      - name: Validate
+        run: mvn validate
+      - name: Test
+        run: mvn test
       - name: Maven Package
         run: mvn -B clean package -DskipTests
+      - name: xml test
+        run: mvn -B package --file pom.xml
+        
