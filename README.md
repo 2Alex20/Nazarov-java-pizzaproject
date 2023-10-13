@@ -20,6 +20,7 @@ graph TD;
     cafe-->name_cafe;
     cafe-->address_cafe;
     pizza-->id;
+    pizza-->id_cafe;
     pizza-->name;
     pizza-->size;
     pizza-->cafe;
