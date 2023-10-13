@@ -1,6 +1,7 @@
 13/10 добавлено описани REST API https://github.com/2Alex20/Nazarov-java-pizzaproject/wiki/REST-API-details
 [relative link] (../wiki/REST-API-details)
-This site was built using [GitHub Pages](https://pages.github.com/).
+This site was built using [markdown](https://pages.github.com/).
+[wiki](https://github.com/2Alex20/Nazarov-java-pizzaproject/wiki/REST-API-details)
 
 Разработать приложение, построенное по принципу чистой архитектуры.
 
