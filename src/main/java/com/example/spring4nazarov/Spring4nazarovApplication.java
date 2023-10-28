@@ -23,12 +23,12 @@ public class Spring4nazarovApplication {
 
     @GetMapping("/cafe/full/{id}") // http://localhost:8080/cafe/full/13 
     public String getCafe(@PathVariable String cafeid) {
-        return String.format("cafe id: %s!", id);
+        return String.format("cafe id: %s!", cafeid);
     }
 
 
-    @GetMapping("/cafe/full/")
-    public String cafe(@RequestParam(value="id",defaultValue = "1") String cafeid) {
+    @GetMapping("/cafe2/full/")
+    public String cafe2(@RequestParam(value="id",defaultValue = "1") String cafeid) {
       return String.format("cafe id= %s!", cafeid);
     }
 
