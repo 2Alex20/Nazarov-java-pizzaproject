@@ -32,6 +32,7 @@ jobs:
 #  dependency not work
 #      - name: Update dependency graph
 #        uses: advanced-security/maven-dependency-submission-action@v1
+# errors in the /home/runner/work/Nazarov-java-pizzaproject/Nazarov-java-pizzaproject/target/surefire-reports
       - run: mvn --batch-mode --update-snapshots verify
       - run: mkdir staging && cp target/*.jar staging
       - uses: actions/upload-artifact@v3
