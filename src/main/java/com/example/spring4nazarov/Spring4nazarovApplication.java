@@ -1,4 +1,4 @@
-package com.example.spring4nazarov;
+package com.example.spring.boot.spring4nazarov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,9 +16,14 @@ public class Spring4nazarovApplication {
       SpringApplication.run(Spring4nazarovApplication.class, args);
     }
 
+    @GetMapping("/error")
+    public String nocafes() {
+      return "request was wrong";
+    }
+
     @GetMapping("/cafes")
     public String cafes() {
-      return "select * from cafe";
+      return "select * from cafe;";
     }
 
     @GetMapping("/cafe/full/{id}") // http://localhost:8080/cafe/full/13 
@@ -41,5 +46,4 @@ public class Spring4nazarovApplication {
     public String msg1(@RequestParam(value = "cmd", defaultValue = "echo") String cmd) {
       return String.format("CMD %s!", cmd);
     }
-
 }
