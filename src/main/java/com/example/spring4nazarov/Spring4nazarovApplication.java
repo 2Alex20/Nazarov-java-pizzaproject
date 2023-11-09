@@ -1,4 +1,4 @@
-package com.example.spring.boot.spring4nazarov;
+package com.example.spring4nazarov;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -42,7 +42,7 @@ public class Spring4nazarovApplication {
       return String.format("cafe id: %s!", cafe);
     }
 
-    @GetMapping("/msg1")
+    @GetMapping("/msg")
     public String msg1(@RequestParam(value = "cmd", defaultValue = "echo") String cmd) {
       return String.format("CMD %s!", cmd);
     }
