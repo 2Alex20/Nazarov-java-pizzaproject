@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.example:pizza1:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.version' for org.springframework.security:spring-security-test:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 89, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -------------------------< com.example:pizza1 >-------------------------
+[INFO] Building pizza1 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ pizza1 ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ pizza1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 22 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ pizza1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 21 source files to /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/target/classes
+[INFO] /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/src/main/java/com/example/pizza1/config/WebSecurityConfig.java: /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/src/main/java/com/example/pizza1/config/WebSecurityConfig.java uses or overrides a deprecated API.
+[INFO] /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/src/main/java/com/example/pizza1/config/WebSecurityConfig.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ pizza1 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ pizza1 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ pizza1 ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.0:jar (default-jar) @ pizza1 ---
+[INFO] Building jar: /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/target/pizza1-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.0.RELEASE:repackage (repackage) @ pizza1 ---
+[INFO] Replacing main artifact /usr/src/mymaven/spring/spring4nazarov/preset/pizza_cafe/target/pizza1-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.739 s
+[INFO] Finished at: 2024-04-30T22:33:00Z
+[INFO] ------------------------------------------------------------------------
