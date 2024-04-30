@@ -1,4 +1,4 @@
-package com.example.spring4nazarov;
+package com.example.pizza1;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
