@@ -1,3 +1,7 @@
+Пофиксил ошибки в action после перехода на java 18, билды снова заработали !!!
+
+---
+
 Started WEB service with ./mvnw spring-boot:run
 Checked with "wget -qO- http://localhost:8080/hello?name=Test123" which return: ```Hello Test123!```
 
