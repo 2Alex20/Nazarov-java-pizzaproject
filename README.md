@@ -1,3 +1,13 @@
+
+Add logs
+https://raw.githubusercontent.com/2Alex20/Nazarov-java-pizzaproject/main/mvn_package_log.txt
+https://raw.githubusercontent.com/2Alex20/Nazarov-java-pizzaproject/main/spring-boot_run_log.txt
+
+video demo https://raw.githubusercontent.com/2Alex20/Nazarov-java-pizzaproject/main/nazarov_demo.mp4
+https://raw.githubusercontent.com/2Alex20/Nazarov-java-pizzaproject/main/nazarov_demo.gif
+
+---
+
 Пофиксил ошибки в action после перехода на java 18, билды снова заработали !!!
 
 ---
